@@ -1,0 +1,29 @@
+# === ゴミ箱（CLAUDE.md 削除ルール準拠） ===
+/.trash/
+
+# === 統合済み旧版ドキュメント ===
+CLAUDE_bk.md
+
+# === 言語別 生成物・依存物 ===
+# C#
+bin/
+obj/
+# PHP
+vendor/
+# JS / TS
+node_modules/
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# === OS / エディタ ===
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+# 注: .claude/ は「共有推奨」の判断で除外していません。
+# 個人設定にしたい場合は次行のコメントを外してください。
+# .claude/
